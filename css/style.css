@@ -73,7 +73,7 @@ html, body {
     .title-wrap {
       padding: 0 0 60px 0; } }
 
-.title_h2 {
+.title-h2 {
   font-family: 'Montserrat';
   font-size: 38px;
   font-weight: 700;
@@ -82,10 +82,10 @@ html, body {
   margin: 0 0 24px 0;
   color: #181919; }
   @media (max-width: 575px) {
-    .title_h2 {
+    .title-h2 {
       font-size: 30px; } }
 
-.subtitle_h2 {
+.subtitle-h2 {
   font-family: 'Merriweather', serif;
   font-weight: 400;
   font-size: 18px;
@@ -93,7 +93,7 @@ html, body {
   color: #858686;
   line-height: 28px; }
   @media (max-width: 575px) {
-    .subtitle_h2 {
+    .subtitle-h2 {
       font-size: 16px; } }
 
 .title_3, .title_4 {
@@ -211,7 +211,7 @@ html, body {
   left: 0;
   padding: 60px 0 10px 0;
   width: 100%; }
-  .header_row {
+  .header__row {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
