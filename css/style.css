@@ -254,6 +254,11 @@ html, body {
   -webkit-transition: 0.75s;
   -o-transition: 0.75s;
   transition: 0.75s; }
+  @media (max-width: 820px) {
+    .menu__link:hover {
+      color: #fff; }
+      .menu__link:hover span {
+        background: #fff; } }
   .menu__link span {
     position: absolute;
     background: #505050;
@@ -343,6 +348,9 @@ html, body {
     .menu__link:hover, .menu__link :focus, .menu__link:active {
       color: #b2f2ee;
       background-color: inherit; } }
+  @media (max-width: 820px) and (max-width: 820px) {
+    .menu__link:hover, .menu__link :focus, .menu__link:active {
+      color: #fff; } }
 
 @media (max-width: 820px) {
   .icon-menu {
