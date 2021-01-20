@@ -264,7 +264,8 @@ html, body {
     background: #505050;
     -webkit-transition: .5s;
     -o-transition: .5s;
-    transition: .5s; }
+    transition: .5s;
+    display: block; }
   .menu__link span:nth-child(1) {
     bottom: 0;
     left: 0;
