@@ -265,7 +265,7 @@ html, body {
     -webkit-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
-    display: block; }
+    display: b; }
   .menu__link span:nth-child(1) {
     bottom: 0;
     left: 0;
@@ -321,6 +321,7 @@ html, body {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s; }
+    
     .menu__body.active {
       -webkit-transform: translateY(0px);
       -ms-transform: translateY(0px);
